@@ -1,6 +1,6 @@
 import re
 
-from CheeseType import NonNegativeInt
+from . import NonNegativeInt
 
 class Port(NonNegativeInt):
     def __new__(cls, value):

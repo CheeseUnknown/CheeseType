@@ -1,7 +1,7 @@
 import os, sys
 from enum import Enum
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+sys.path.append(os.path.dirname(os.path.realpath(__file__)))
 
 class Bool:
     def __new__(cls, value):

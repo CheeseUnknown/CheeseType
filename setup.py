@@ -5,7 +5,7 @@ with open('./README.md', 'r', encoding = 'utf-8') as f:
 
 setuptools.setup(
     name = 'CheeseType',
-    version = '0.0.1',
+    version = '0.0.2',
     author = 'Cheese Unknown',
     author_email = 'cheese@cheese.ren',
     description = '存放了一些常用自定义类型的库。',
@@ -17,7 +17,7 @@ setuptools.setup(
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.11'
     ],
-    keywords = 'web framework api',
+    keywords = 'type',
     python_requires = '>=3.11',
     install_requires = [],
     packages = setuptools.find_packages()
