@@ -91,9 +91,3 @@ System('WINDOWS') # System.WINDOWS
 - **`class IPv6(str)`**
 
 - **`class IP(str)`**
-
-## **对于开发者**
-
-示例应当尽量匹配其类，目前仅有`bool`无法实现。
-
-除去纯数学类型，其他类型数量到达一定时可新创建py文件以分类存放。

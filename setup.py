@@ -5,7 +5,7 @@ with open('./README.md', 'r', encoding = 'utf-8') as f:
 
 setuptools.setup(
     name = 'CheeseType',
-    version = '0.0.2',
+    version = '0.0.3',
     author = 'Cheese Unknown',
     author_email = 'cheese@cheese.ren',
     description = '存放了一些常用自定义类型的库。',
